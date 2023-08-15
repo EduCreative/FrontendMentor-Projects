@@ -1,0 +1,236 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+body {
+  background-image: url("./images/bg-intro-mobile.png");
+  background-color: hsl(0, 100%, 74%);
+  min-height: 100vh;
+  border: 1px solid yellow;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 5% 10%;
+  /* border:5px solid red; */
+}
+
+header {
+  /* margin: 10%; */
+  /* border:1px solid yellow; */
+  text-align: left;
+}
+
+h1 {
+  margin: 0rem 2rem 0 0;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 3rem;
+  color: white;
+}
+
+h2 {
+  margin: 2rem 2rem 0rem 0;
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.container {
+  width: 100%;
+  /* padding: 1rem 2rem; */
+  /* border:1px solid blue; */
+}
+
+.container > h2 {
+  padding: 1rem 1rem;
+  margin: 1rem 0rem;
+  font-size: 1rem;
+  background-color: hsl(248, 32%, 49%);
+  text-align: center;
+  border-radius: 0.5rem;
+  box-shadow: 0rem 0.3rem 0rem rgb(0, 0, 0, 0.2);
+  /* border:1px solid yellow; */
+}
+
+form {
+  background-color: white;
+  padding: 1rem 0rem;
+  text-align: center;
+  border-radius: 0.5rem;
+  box-shadow: 0rem 0.3rem 0rem rgb(0, 0, 0, 0.2);
+  /* border: 1px solid yellow; */
+}
+
+input {
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0.8rem;
+  margin: 0.8rem;
+  width: 90%;
+  border-radius: 0.3rem;
+  border: 0.03rem solid hsl(246, 25%, 77%);
+}
+
+
+.btn {
+  padding: 10px;
+  color: white;
+  width: 90%;
+  background-color: hsl(154, 59%, 51%);
+  text-transform: uppercase;
+  box-shadow: 0rem 0.2rem 0rem rgba(0, 100, 0, 0.6);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn:active {
+  background-color: hsla(154, 59%, 51%, 0.8);
+}
+
+h3 {
+  padding: 0.5rem;
+  margin: 0.5rem;
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: hsl(246, 25%, 77%);
+}
+.bold {
+  font-weight: 700;
+  color: white;
+}
+.red {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: hsl(0, 100%, 74%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin: 0;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  margin: 0;
+}
+
+.error {
+  border: 2px solid hsl(0, 100%, 74%);
+  background: url("./images/icon-error.svg") no-repeat;
+  background-position: 95% 50%;
+}
+
+.error-text {
+  font-size: 12px;
+  font-style: italic;    
+  margin-left: 280px;  
+  color: hsl(0, 100%, 74%);  
+}
+
+.success {
+  border: 2px solid hsl(154, 59%, 51%);
+}
+
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./images/bg-intro-desktop.png");
+    background-color: hsl(0, 100%, 74%);
+    min-height: 100vh;
+    /* border: 1px solid yellow; */
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin: 10%; */
+    /* border:5px solid red; */
+  }
+
+  header {
+    text-align: center;
+    /* border:1px solid yellow; */
+    /* margin: 15% 0; */
+  }
+
+  h1 {
+    margin: 4rem 0 2rem 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+    /* line-height: 3rem;     */
+    /* border:1px solid yellow; */
+  }
+  h2 {
+    /* margin: 2rem 2rem 0rem 0; */
+    margin: 1rem 1.2rem;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.5rem;
+    /* border:1px solid yellow; */
+  }
+
+  .container {
+    /* padding: 1rem 2rem; */
+    /* border:1px solid blue; */
+  }
+  .container > h2 {
+    padding: 0.8rem 3rem;
+    margin: 1rem 0rem;
+    font-size: 0.8rem;
+    /* border:1px solid yellow; */
+  }
+
+  form {
+    /* border: 1px solid yellow; */
+  }
+
+  label {
+    display: block;
+    width: auto;
+    display: none;
+  }
+
+  .btn:active {
+    background-color: hsla(154, 59%, 51%, 0.8);
+  }
+
+  h3 {
+    padding: 0.5rem 0.8rem;
+    margin: 0.5rem;
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: hsl(246, 25%, 77%);
+  }
+  .bold {
+    font-weight: 700;
+    color: white;
+  }
+  .red {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: hsl(0, 100%, 74%);
+  }
+
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+    margin: 0rem 4rem;
+  }
+}
