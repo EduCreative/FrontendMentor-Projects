@@ -31,10 +31,10 @@ Users should be able to:
 
 ### Screenshot
 Desktop View
-![Desktop](https://github.com/EduCreative/FrontendMentor-Huddle-landing-page/assets/108581855/45eefb54-a23e-4d22-a20a-c4569d236588)
+![Desktop](https://github.com/EduCreative/frontendMentor-Projects/intro-component-with-signup-form-master/screenshots/Desktop view 1.png)
 
 Mobile View
-![Mobile](https://github.com/EduCreative/FrontendMentor-Huddle-landing-page/assets/108581855/03665c7e-93b3-443e-8d72-82ae5b1e8ce8)
+![Mobile](https://github.com/EduCreative/frontendMentor-Projects/intro-component-with-signup-form-master/screenshots/mobile view.png))
 
 ### Links
 
