@@ -31,10 +31,10 @@ Users should be able to:
 
 ### Screenshot
 Desktop View
-![Desktop](https://github.com/EduCreative/frontendMentor-Projects/intro-component-with-signup-form-master/screenshots/Desktop view 1.png)
+![Desktop](https://github.com/EduCreative/frontendMentor-Projects/intro-component-with-signup-form-master/screenshots/Desktop-view-1.png)
 
 Mobile View
-![Mobile](https://github.com/EduCreative/frontendMentor-Projects/intro-component-with-signup-form-master/screenshots/mobile view.png))
+![Mobile](https://github.com/EduCreative/frontendMentor-Projects/intro-component-with-signup-form-master/screenshots/mobile-view.png))
 
 ### Links
 
