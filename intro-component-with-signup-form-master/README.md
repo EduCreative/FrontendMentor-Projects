@@ -30,11 +30,18 @@ Users should be able to:
   - The email address is not formatted correctly (i.e. a correct email address should have this structure: `name@host.tld`). The message for this error should say *"Looks like this is not an email"*
 
 ### Screenshot
-Desktop View
-![Desktop](https://github.com/EduCreative/frontendMentor-Projects/intro-component-with-signup-form-master/screenshots/Desktop-view-1.png)
+**Desktop View**
 
-Mobile View
-![Mobile](https://github.com/EduCreative/frontendMentor-Projects/intro-component-with-signup-form-master/screenshots/mobile-view.png))
+![Desktop](https://github.com/EduCreative/FrontendMentor-Projects/blob/main/intro-component-with-signup-form-master/Screenshots/Desktop-view-1.png)
+
+![Desktop](https://github.com/EduCreative/FrontendMentor-Projects/blob/main/intro-component-with-signup-form-master/Screenshots/Desktop-view-2.png)
+
+![Desktop](https://github.com/EduCreative/FrontendMentor-Projects/blob/main/intro-component-with-signup-form-master/Screenshots/Desktop-view-3.png)
+
+
+**Mobile View**
+![Desktop](https://github.com/EduCreative/FrontendMentor-Projects/blob/main/intro-component-with-signup-form-master/Screenshots/Mobile-view.png)
+
 
 ### Links
 
